@@ -1,0 +1,28 @@
+/*
+Theme Name: LHS Theme
+Theme URI: http://underscores.me/
+Author: Cory Pierson
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Cory's Template
+Tags:
+
+
+Cory's Template is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+*/
+@import "css/tools/normalize/_normalize.scss";
+@import "css/modules/_header.scss";
+@import "css/modules/_navigation.scss";
+@import "css/modules/_footer.scss";
+@import "css/modules/_jumbo.scss";
+@import "css/modules/_contact.scss";
+@import "css/pages/_home.scss";
+@import "css/pages/_page.scss";
+@import "css/pages/_gallery.scss";
+@import "css/pages/_contact.scss";
+@import "css/pages/_about.scss";
+@import "css/_global.scss";

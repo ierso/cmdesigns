@@ -1,0 +1,40 @@
+#menu-top-menu{
+  list-style: none;
+  float: right;
+    li{
+      margin-top: 85px;
+      padding-left: 35px;
+      display: inline-block;
+      font-family: 'Lato', sans-serif;
+      a{
+        color: #000;
+        &:hover{
+          color: #273525;
+        }
+      }
+    }
+}
+
+#site-navigation{
+  ul{
+    height: 25px;
+    padding: 8px 0px 0px 0px;
+    margin: 0px;
+    list-style: none;
+    li{
+      float: left;
+      width: 256px;
+      text-align: center;
+      a{
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+          color: #d7ded6;
+        }
+      }
+    }
+  }
+}

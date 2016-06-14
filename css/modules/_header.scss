@@ -1,0 +1,64 @@
+//header//
+
+.site-header{
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	.site-branding{
+		width: 512px;
+		float: left;
+		.site-title{
+			background-image: url('img/cm_logo.gif');
+			background-size: cover;
+			position: center center;
+		}
+	}
+	#top-navigation{
+		width: 512px;
+		float:right;
+	}
+	#site-navigation{
+		clear:both;
+		width: 100%;
+		float:left;
+		background-color: #273525;
+	}
+}
+
+#services{
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	.service{
+		width: 256px;
+    float: left;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		h2{
+			margin: 20px 0px 0px 0px;
+			text-transform: uppercase;
+			font-family: 'Lato', sans-serif;
+			font-weight: 700;
+			font-size: 16px;
+
+		}
+		ul{
+			margin: 10px 0px 0px 0px;;
+			list-style: none;
+			padding: 0px;
+			li{
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+.pageBreak{
+	border: 0;
+	height: 1px;
+	background: #d7ded6;
+	width: 1024px;
+	margin: 0 auto;
+}
